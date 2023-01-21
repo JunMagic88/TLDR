@@ -12,7 +12,7 @@ Summarise longer texts (eBooks, Youtube, PDFs, etc.) with chatGPT
 git clone https://github.com/JunMagic88/TLDR.git
 ```
 8. Using a text editor, create and save a file named **.env** (no file extension) with a single line in its content: **CHATGPT_SESSION_TOKEN=XXXXXXX** replace XXXXXXX with the session token you got from step 5
-9. Navigate to the folder in **Terminal (Mac)** or **Command Prompt (Windows)** and run: 
+9. Navigate to the TLDR folder in **Terminal (Mac)** or **Command Prompt (Windows)** and run: 
 ```python
 pip install -r requirements
 ```
