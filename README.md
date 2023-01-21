@@ -10,9 +10,9 @@ Summarise your texts (eBooks, Youtube, PDFs, etc.) with chatGPT
 6. Download or git clone this repository (git clone https://github.com/JunMagic88/TLDR.git) to a local folder of your choice
 7. Using a text editor, create and save a file named **.env** (no file extension) in the same folder with a single line: **CHATGPT_SESSION_TOKEN=XXXXXXX** replace XXXXXXX with the session token you got from step 5
 8. Navigate to the folder in **Terminal (Mac)** or **Command Prompt (Windows)** and run: 
-'''python
+```python
 pip install -r requirements
-'''
+```
 
 ## Adding the Texts you want to Summarise
 1. Add any **.txt** files in the **/Texts** folder 
