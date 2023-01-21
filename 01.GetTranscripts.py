@@ -27,7 +27,7 @@ for url in urls:
         print("Invalid URL")
         continue
 
-    # Save the SRT transcript from each video into separate files under the TubeSRTs folder
+    # Save the SRT transcript from each video into separate files
     for video in videos:
         with open('Texts/'+video.title +'.txt', "w") as file:
             # Iterate through the videos and write their titles to the file
