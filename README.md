@@ -17,12 +17,12 @@ git clone https://github.com/JunMagic88/TLDR.git
 pip install -r requirements
 ```
 
-## Adding Texts to Summarise
+## Adding texts to summarise
 1. Add any **.txt** files in the **/Texts** folder 
 2. Add any **.epub** or **.pdf** files in the **/00.EPUBs+PDFs** folder
 3. Add any **YouTube links** (can be video or public playlist URLs) to the Youtube
 
-## Getting Started
+## Let's TLDR!
 1. Run this to download the **transcripts** of the YouTube videos to the **/Texts** folder
 ```python
 python 01.GetTranscripts.py
