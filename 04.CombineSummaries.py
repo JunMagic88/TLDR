@@ -1,6 +1,6 @@
 import os
 
-# Create the "TubesFinal" folder if it does not already exist
+# Create the "FinalSummaries" folder if it does not already exist
 if not os.path.exists("FinalSummaries"):
     os.makedirs("FinalSummaries")
 
