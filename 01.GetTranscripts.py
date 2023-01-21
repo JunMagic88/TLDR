@@ -6,8 +6,8 @@ from youtube_transcript_api import YouTubeTranscriptApi
 if not os.path.exists("Texts"):
     os.makedirs("Texts")
 
-# Open the "YoutubeURLs.txt" file and read the URLs
-with open("YoutubeURLs.txt", "r") as file:
+# Open the "00.YoutubeURLs.txt" file and read the URLs
+with open("00.YoutubeURLs.txt", "r") as file:
     urls = file.readlines()
 
 # Iterate through the URLs
