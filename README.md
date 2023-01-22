@@ -31,11 +31,11 @@ python 01.GetTranscripts.py
 ```python
 python 01.ParseToTxt.py
 ```
-3. Run this to break the files in /Texts into **chunks** that would fit into single chatGPT window
+3. Run this to break the files in /Texts into **chunks** that would fit into single chatGPT windows
 ```python
 python 02.Chunkify.py
 ```
-4. Run this to start the summarisation. This should start a Chrome window. Do you try to login, it will close automatically. The summarised chunks are saved in **/ChunkSummaries** folder
+4. Run this to start the summarisation. This should start a Chrome window. Do not try to login and allow it to close automatically. The summarised chunks are saved in **/ChunkSummaries** folder
 ```python
 python 03.Summarise.py
 ```
