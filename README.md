@@ -43,3 +43,9 @@ python 03.Summarise.py
 ```python
 python 04.CombineSummaries.py
 ```
+## Common issues & fixes
+The 03.Summarise.py script can fail and exit from time to time. This is typically due to: 
+* The number of chats in chatGPT has filled up - **FIX: log into chatGPT and clear your chats via the left panel**
+* The session token is out of date - **FIX: get a new token - see step 5 above. **
+* Too many requests in 1 minute - **FIX: Run the script again or change the x in **time.sleep(x)** within the code to a higher number so that the script pauses for x seconds before trying again
+* TOo many requests in 1 hour - **FIX: chatGPT rate limit. create an additional account + get session token to run another instance of the script.
