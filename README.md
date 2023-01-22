@@ -43,7 +43,7 @@ python 03.Summarise.py
 ```python
 python 04.CombineSummaries.py
 ```
-## Common issues & fixes
+## Common issues & workarounds
 03.Summarise.py may fail and exit from time to time. This is typically due to: 
 * The number of chats in chatGPT has filled up - FIX: log into chatGPT and clear your chats via the left panel
 * The session token is out of date - FIX: get a new token - see step 5 above. 
